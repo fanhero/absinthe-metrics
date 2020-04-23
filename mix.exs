@@ -25,7 +25,7 @@ defmodule AbsintheMetrics.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:absinthe, "~> 1.4"},
+      {:absinthe, "~> 1.5-pre"},
       {:prometheus_ex, "~> 3.0", optional: true},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
